@@ -1,6 +1,6 @@
 function highProd2 (arr) {
     let highest = Math.max(...arr);
-    let newArr = arr.filter(e => e !== highest);
+    let newArr = arr.filter(number => number !== highest);
     let secondHighest = Math.max(...newArr);
 
     const answer = highest * secondHighest;
